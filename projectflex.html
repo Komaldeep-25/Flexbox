@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box ;
+        }
+        body{
+            margin: 0%;
+        }
+        .box{
+            background-color: rgb(69, 209, 162);
+            color: aliceblue;
+            text-align: center;
+            padding: 30px;
+
+        }
+        p{
+            background-color: black;
+            color: aliceblue;
+            margin-top:0;
+            margin-bottom: 0%;
+            padding: 15px;
+        }
+        a{
+            color: aliceblue;
+            text-decoration: none;
+            padding: 10px 14px;
+        }
+        a:hover{
+            background-color: rgb(44, 44, 48);
+            color: aliceblue;
+        }
+        .whole{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .left{
+            flex:30%;
+            background-color: hsl(0, 6%, 87%);
+            padding:20px;
+        }
+        .img{
+            height:250px;
+            background-color: hsl(0, 2%, 59%);
+            margin: 20px;
+            padding: 10px ;
+        }
+        .short{
+            margin: 5px;
+            margin-left: 20px;
+            height: 60px;
+            background-color: hsl(0, 2%, 59%);
+            display: flex;
+            align-items:center;
+        }
+        .right{
+            flex: 70%;
+            padding: 20px ;
+            background-color: white;
+        }
+        .Ig{
+            height: 180px;
+            background-color: hsl(0, 2%, 59%);
+            font-size: medium;
+        }
+        #para{
+            background-color: white;
+            color: black;
+        }
+        .bottom{
+            background-color: hsl(0, 3%, 79%);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: baseline;
+            justify-content: center;
+            padding: 10px;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+        <div class="box">
+             <h1>
+                 My Website
+             </h1>
+                With a <b>Flexible</b> layout
+        </div>
+          <p><a href="">Link</a>    <a href="">Link</a>    
+             <a href="">Link</a>   <a href="">Link</a></p>
+        <div class="whole">
+            <div class="left">
+                <h2>About me</h2>
+                <h4>Photo of me:</h4>
+                <div class="img"><h4>Image</h4></div>
+                some text about me in cupla deserunt mollit anime....
+                <h4>More Text</h4><br>
+                <h4>Lorem ipsum dolor sit amet</h4>
+                <div class="short"><h4>image</h4></div>
+                <div class="short"><h4>image</h4></div>
+                <div class="short"><h4>image</h4></div>
+            </div>
+            <div class="right">
+                <h2>TITLE HEADING</h2>
+                <h5>title distribution<h5>
+                    <div class="Ig"><h4>Image</h4>
+                    </div>
+                    <h4>some text....</h4>
+                    <p id="para">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <h2>TITLE HEADING</h2>
+                    <h5>title distribution,Dec 7,2017<h5>
+                    <div class="Ig"><h4>Image</h4>
+                    </div>
+                    <h4>some text....</h4>
+                    <p id="para">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+        </div>
+        <div class="bottom"><h4>Footer</h4></div>
+</body>
+</html>
